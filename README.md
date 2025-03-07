@@ -1,2 +1,3 @@
 # filr_usermigrate
-For migrating Filr/Vibe/TeamWorks users between different ldap repositories such as Edir to AD
+This is a set of sql scripts and basic steps for migrating Filr/Vibe/TeamWorks users between different ldap repositories such as Edir to AD
+
