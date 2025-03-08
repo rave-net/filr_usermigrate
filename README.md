@@ -4,6 +4,8 @@ The basic steps are to create second zone on system and configure it against the
 source.zoneid = the NEW temporary zone being setup to sync against new LDAP source
 target.zoneid is your original zone you are modifying.  usually zone 1.
 
+**Backup your database
+
 1: Setup a second zone in your Filr/Vibe/Teamworks
 
 2: Note the zoneid of both primary and your new test zone, and put this into 
