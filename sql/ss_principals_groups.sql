@@ -1,0 +1,10 @@
+UPDATE ss_principals AS target
+SET ldapguid = source.ldapguid
+FROM ss_principals AS source
+WHERE target.name = source.name
+  AND target.zoneid = 1
+  AND source.zoneid = ####
+  AND target.type = 'group'
+  AND target.deleted = false
+  AND target.fromldap = true
+  AND target.ldapcontainer IS NULL;
