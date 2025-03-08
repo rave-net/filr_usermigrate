@@ -8,7 +8,7 @@ target.zoneid is your original zone you are modifying.  usually zone 1.
 
 1: Setup a second zone in your Filr/Vibe/Teamworks
 
-2: Note the zoneid of both primary and your new test zone, and put this into 
+2: Note the zoneid of both primary and your new test zone, and put this into the source.zoneid replacing the ####
 
 3: login to your test zone and configure the target diretory service, making sure your ldap filters are configured appropriately to emulate your original zone user/group results, and test to make sure this works
 
