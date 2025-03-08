@@ -22,3 +22,5 @@ target.zoneid is your original zone you are modifying.  usually zone 1.
 
 9: resync all netfolders and users.
 
+10: Once all user migration is complete and no longer require the second zone, delete it from system.
+
